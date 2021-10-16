@@ -9,7 +9,7 @@
 #<HUAWEI> system-view 
 #[HUAWEI] interface MEth 0/0/1
 #执行命令ip address ip-address { mask | mask-length }，配置MEth接口的IP地址。此处假设设备管理网口的IP地址为10.1.1.1/24。
-#[HUAWEI-MEth0/0/1] ip address 10.1.1.0 255.255.255.0
+#[HUAWEI-MEth0/0/1] ip address 10.1.1.1 255.255.255.0
 #[HUAWEI-Meth0/0/1]quit
-#[HUAWEI]ip route-static 10.1.1.0 255.255.255.0 10.1.1.254
+#[HUAWEI]ip route-static 10.1.1.1 255.255.255.0 10.1.1.254
 #[HUAWEI] 
